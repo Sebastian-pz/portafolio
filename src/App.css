@@ -40,7 +40,7 @@ body {
 .home__info {
   margin-left: 2.5vw;
   padding-bottom: 3vh;
-  border-bottom: 1px solid #eeeeeea8;
+  border-bottom: 1px solid #00acb59c;
 }
 
 .home__info h1 {
@@ -99,10 +99,13 @@ body {
 }
 
 .about__description {
-  width: 50vw;
+  width: 35vw;
+  margin-right: 40px;
 }
 .about__description p {
   display: block;
+  font-size: 16px;
+
   margin-bottom: 0.5rem;
 }
 
@@ -118,7 +121,7 @@ body {
 
 .about__linkedin__button {
   background-color: #00adb5;
-  height: 35px;
+  height: 55px;
   width: 200px;
   border-radius: 20px;
   border: 1px solid lightgray;
@@ -128,6 +131,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .about__linkedin__button:hover {
@@ -139,11 +143,66 @@ body {
 
 /* Carrousel */
 
-.carrousel {
+.carousel {
   height: 100vh;
-  /* background: './assets/Ducker-background.webp'; */
   background-size: 100% !important;
+  overflow: hidden;
+}
+
+.carousel__blur {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background-color: #222831d1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.carousel__container {
+  background: #22283174;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.carousel__projectImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.carousel__projectImg:hover {
+  cursor: pointer;
+}
+
+.carousel__info {
+  background: #22283174;
+  margin-top: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.carousel__info ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.carousel__info ul li {
+  margin-left: 10px;
+}
+.carousel__info h3 {
+  margin-bottom: 20px;
+}
+.carousel__info h4 {
+  margin: 20px;
+}
+.carousel__info a {
+  color: #00adb5;
+}
+.carousel__info p {
+  margin-bottom: 10px;
 }

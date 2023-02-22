@@ -1,12 +1,10 @@
 import React from 'react';
-import Carrousel from '../Carrousel/Carrousel';
+import Carousel from '../Carousel/Carousel';
 
 const Projects = () => {
   return (
     <div className="projects">
-      <h2>Proyectos</h2>
-      <Carrousel />
-      <div></div>
+      <Carousel />
     </div>
   );
 };

@@ -7,19 +7,18 @@ const About = () => {
       <div className="about__description">
         <h2>Acerca de mí</h2>
         <p>
-          Soy un fullstack web developer colombiano, que le gusta programar
-          cosas. Desarrollo web Frontend - Backend.
+          Soy un fullstack web developer colombiano, me apasiona la tecnología,
+          las consolas y los videojuegos. Me gusta programar cosas. Desarrollo
+          web frontend y backend.
         </p>
         <p>
           He utilizado lenguajes de programación como Python, Kotlin, Java,
-          Dart, TypeScript, pero mi main es Javascript 💛
+          Dart, TypeScript y mi main es JavaScript 💛
         </p>
-        <p>NodeJS y ReactJS</p>
         <p> Me gusta la tecnología, el deporte y los animales.</p>
       </div>
       <div className="about__linkedin">
         <img src={ProfilePhoto} alt="Foto de perfil LinkedIn" />
-        linkedin logo boton
         <a
           className="about__linkedin__button"
           href="https://www.linkedin.com/in/sebastian-p%C3%A9rez-zuluaga-859715206/"
@@ -27,7 +26,6 @@ const About = () => {
         >
           Contáctame por Linkedin
         </a>
-        icono click
       </div>
     </div>
   );
