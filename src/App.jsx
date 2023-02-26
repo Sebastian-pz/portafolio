@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 
 const App = () => {
   return (
@@ -16,8 +17,10 @@ const App = () => {
       <section>
         <Projects />
       </section>
-      {/* <section>Sección de tecnologías</section>
-      <section>Sección de contacto y CV</section> */}
+      {/* <section>Sección de tecnologías</section> */}
+      <section>
+        <Contact />
+      </section>
     </div>
   );
 };
