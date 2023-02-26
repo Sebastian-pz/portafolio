@@ -16,13 +16,17 @@ const Carrousel = () => {
   return (
     <div
       className="carousel"
-      style={{ background: `url(${projectInfo.background})` }}
+      style={{
+        background: `linear-gradient(#9b9b9ba5, #eeeeee5a), url(${projectInfo.background})`,
+      }}
     >
       <div className="carousel__blur">
         <div className="carousel__container">
           {projectsInfo.map((project) => {
             return (
               <img
+                loading="lazy"
+                decoding="async"
                 src={project.image}
                 alt={`Imagen del proyecto ${project.project}`}
                 width="200px"
@@ -36,11 +40,12 @@ const Carrousel = () => {
         <div className="carousel__info">
           <h3>{projectInfo.project}</h3>
           <p>{projectInfo.description}</p>
-          <p>Rol: {projectInfo.role}</p>
+          <h4>¿Cuál fue mi rol dentro del proyecto?</h4>
+          <p>{projectInfo.role}</p>
           <ul>
             {projectInfo.stack &&
               projectInfo.stack.map((element) => {
-                return <li>{element}</li>;
+                return <li className="carousel__stackElement">{element}</li>;
               })}
           </ul>
           <h4>Repositorios</h4>

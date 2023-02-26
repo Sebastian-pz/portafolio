@@ -14,7 +14,7 @@ export const projectsInfo = [
     background: DuckerBackground,
     description:
       'Ducker es una red social inspirada en el desarrollo de Twitter',
-    role: 'Fullstack developer. Integracion del equipo, desarrollo y mejoramiento del código. Planteamiento del proyecto y requerimientos básicos iniciales. \n Desarrollo frontend basado en el consumo de api y experiencia de usuario con base a Twitter.\n  Desarrollo backend enfocado en la optimización de rutas, la seguridad y el entendimiento.',
+    role: 'Desarrollador Fullstack. Integración del equipo, desarrollo y mejoramiento del código. Planteamiento del proyecto y requerimientos básicos iniciales. \n Desarrollo frontend basado en el consumo de api y experiencia de usuario con base a Twitter.\n  Desarrollo backend enfocado en la optimización de rutas, la seguridad y el entendimiento.',
     stack: [
       'JavaScript',
       'TypeScript',
@@ -39,7 +39,7 @@ export const projectsInfo = [
     background: RockStarPlaceBackground,
     description:
       'Rockstar place es una aplicación web diseñada para conectar locales con bandas de música.',
-    role: 'Fullstack. Principalmente enfocado en el desarrollo de la lógica de la aplicación tanto en el backend como en el frontend.',
+    role: 'Desarrollador Fullstack. Principalmente enfocado en el desarrollo de la lógica de la aplicación tanto en el backend como en el frontend.',
     stack: [
       'JavaScript',
       'NodeJS',
@@ -66,7 +66,7 @@ export const projectsInfo = [
     image: PokemonIcon,
     background: PokemonBackground,
     description: 'Pokemon Api es una aplicación de consumo de API',
-    role: 'Fullstack. Crear una aplicación consumiendo una API integrando una base de datos relacional para el proceso CRUD -> consultar, crear, modificar y eliminar pokemons. \n Diseñar el aspecto visual de la página y la logica de renderizado.',
+    role: 'Desarrollador Fullstack. Crear una aplicación consumiendo una API integrando una base de datos relacional para el proceso CRUD (consultar, crear, modificar y eliminar pokemons). \n Diseñar el aspecto visual de la página y la logica de renderizado.',
     stack: [
       'JavaScript',
       'NodeJS',
@@ -91,7 +91,7 @@ export const projectsInfo = [
     background: AcademicaUdeABackground,
     description:
       'Academica es una aplicación web desarrollada para simular el comportamiento de una página universitaria.',
-    role: 'Fullstack. Desarrollo de la aplicación. \n Desarrollo desde cero utilizando el Stack MERN.',
+    role: 'Desarrollador Fullstack. Desarrollo de la aplicación. \n Desarrollo desde cero utilizando el Stack MERN.',
     stack: [
       'JavaScript',
       'NodeJS',

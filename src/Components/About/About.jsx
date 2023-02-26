@@ -8,8 +8,12 @@ const About = () => {
         <h2>Acerca de mí</h2>
         <p>
           Soy un fullstack web developer colombiano, me apasiona la tecnología,
-          las consolas y los videojuegos. Me gusta programar cosas. Desarrollo
-          web frontend y backend.
+          las consolas y los videojuegos, más de 2 años creando pequeñas
+          aplicaciones.
+        </p>
+        <p>
+          Me gusta programar cosas tanto en el desarrollo web frontend como en
+          el backend.
         </p>
         <p>
           He utilizado lenguajes de programación como Python, Kotlin, Java,
