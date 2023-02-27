@@ -285,7 +285,7 @@ html {
   color: white;
   font-weight: bold;
   font-size: 20px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .contact__button:hover {
   transition: 0.3s;
