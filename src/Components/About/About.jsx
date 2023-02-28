@@ -11,7 +11,7 @@ const About = () => {
           las consolas y los videojuegos, más de 2 años creando pequeñas
           aplicaciones.
         </p>
-        <p>
+        <p className="about__secondp">
           Me gusta programar cosas tanto en el desarrollo web frontend como en
           el backend.
         </p>
@@ -19,7 +19,9 @@ const About = () => {
           He utilizado lenguajes de programación como Python, Kotlin, Java,
           Dart, TypeScript y mi main es JavaScript 💛
         </p>
-        <p> Me gusta la tecnología, el deporte y los animales.</p>
+        <p className="about__lastp">
+          Me gusta la tecnología, el deporte y los animales.
+        </p>
       </div>
       <div className="about__linkedin">
         <img src={ProfilePhoto} alt="Foto de perfil LinkedIn" />
