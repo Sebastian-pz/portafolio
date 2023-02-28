@@ -25,7 +25,7 @@ export const projectsInfo = [
       'Sass',
       'MongoDB',
       'Axios',
-      'Entre otros.',
+      'Otros.',
     ],
     achievements: [],
     repository: [
@@ -51,7 +51,7 @@ export const projectsInfo = [
       'Passport',
       'TypeScript',
       'Axios',
-      'Entre otros.',
+      'Otros.',
     ],
     achievements: [],
     repository: [
@@ -75,7 +75,7 @@ export const projectsInfo = [
       'PostgreSQL',
       'CSS',
       'Styled components',
-      'Entre otros.',
+      'Otros.',
     ],
     achievements: [],
     repository: [
@@ -101,7 +101,7 @@ export const projectsInfo = [
       'JWT',
       'Bootstrap',
       'Docker',
-      'Entre otros.',
+      'Otros.',
     ],
     achievements: [],
     repository: [

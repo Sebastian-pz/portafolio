@@ -24,10 +24,9 @@ const Contact = () => {
           <label>Mensaje</label>
           <textarea name="message" placeholder="Tu mensaje" required />
           <button type="submit" className="contact__button">
-            Enviar mensaje
+            Enviar
           </button>
         </form>
-        <a href="#">Descarga mi CV</a>
         <div className="contact__socialContainer">
           <a
             href="https://github.com/Sebastian-pz"
