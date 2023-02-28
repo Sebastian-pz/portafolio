@@ -387,7 +387,7 @@ html {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .about__description .about__lastp {
     display: none;
   }
