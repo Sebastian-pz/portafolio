@@ -5,12 +5,17 @@ import devIcon from '../../assets/icon.svg';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar__section">
-        <Link to="home" smooth={true} duration={500} className="navbar__link">
+      <div className="navbar__section --nav__section1">
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          className="navbar__link navbar__linkIcon"
+        >
           <img src={devIcon} alt="Icono de inicio" height="50px" width="50px" />
         </Link>
       </div>
-      <div className="navbar__section">
+      <div className="navbar__section --nav__section2">
         <Link to="home" smooth={true} duration={500} className="navbar__link">
           Inicio
         </Link>

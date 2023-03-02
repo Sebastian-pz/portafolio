@@ -354,7 +354,7 @@ html {
   }
 
   .about {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -369,7 +369,7 @@ html {
   }
 
   .carousel {
-    height: 100vh;
+    height: auto;
   }
 
   .carousel__container img {
@@ -408,6 +408,25 @@ html {
   .contact__button {
     width: 30%;
   }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 70px;
+  }
+
+  .--nav__section1 {
+    display: none;
+  }
+
+  .--nav__section2 {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 400px) {
@@ -426,5 +445,9 @@ html {
 
   .contact__button {
     width: 60%;
+  }
+
+  .navbar__linkIcon {
+    display: none;
   }
 }
