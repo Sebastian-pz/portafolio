@@ -33,6 +33,7 @@ const Carrousel = () => {
                 height="200px"
                 className="carousel__projectImg"
                 onClick={() => setCurrent(project.project)}
+                key={`${project.project}img`}
               />
             );
           })}
@@ -45,14 +46,18 @@ const Carrousel = () => {
           <ul>
             {projectInfo.stack &&
               projectInfo.stack.map((element) => {
-                return <li className="carousel__stackElement">{element}</li>;
+                return (
+                  <li className="carousel__stackElement" key={element}>
+                    {element}
+                  </li>
+                );
               })}
           </ul>
           <h4>Repositorios</h4>
           {projectInfo.repository &&
             projectInfo.repository.map((repo) => {
               return (
-                <p>
+                <p key={`project${projectInfo.project}.${repo.type}`}>
                   {repo.type}:{'  '}
                   <a href={repo.link} target="_blank" rel="noopener noreferrer">
                     {repo.link}

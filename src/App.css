@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -316,6 +317,28 @@ html {
 
 .contact__social {
   margin: 0 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  background-color: #00adb5;
+  height: 90px;
+  padding: 15px 90px;
+  z-index: 1000;
+}
+
+.navbar__link {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.navbar__link:hover {
+  color: #222831;
+  transition: 0.3s;
 }
 
 /* Responsive */
