@@ -21,6 +21,7 @@ const About = () => {
         </p>
         <p className="about__lastp">
           Me gusta la tecnología, el deporte y los animales.
+          Contáctame por correo: <strong>spezuluaga@gmail.com</strong>
         </p>
       </div>
       <div className="about__linkedin">
