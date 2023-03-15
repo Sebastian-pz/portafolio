@@ -8,12 +8,9 @@ const About = () => {
         <h2>Acerca de mí</h2>
         <p>
           Soy un fullstack web developer colombiano, me apasiona la tecnología,
-          las consolas y los videojuegos, más de 2 años creando pequeñas
-          aplicaciones.
-        </p>
-        <p className="about__secondp">
-          Me gusta programar cosas tanto en el desarrollo web frontend como en
-          el backend.
+          las consolas y los videojuegos, más de 2 programando aplicaciones. He
+          trabajado de como desarrollador freelance en proyectos fullstack para
+          empresas argentinas.
         </p>
         <p>
           He utilizado lenguajes de programación como Python, Kotlin, Java,
@@ -21,6 +18,8 @@ const About = () => {
         </p>
         <p className="about__lastp">
           Me gusta la tecnología, el deporte y los animales.
+        </p>
+        <p className="about__lastp">
           Contáctame por correo: <strong>spezuluaga@gmail.com</strong>
         </p>
       </div>

@@ -162,10 +162,9 @@ html {
   line-height: 1.5;
 }
 
-/* Carrousel */
-
+/* projects -- Carrousel */
 .carousel {
-  height: 100vh;
+  min-height: 100vh;
   background-size: 100% !important;
   overflow: hidden;
 }
@@ -173,6 +172,7 @@ html {
 .carousel__blur {
   width: 100%;
   height: 100%;
+  min-height: 100vh;
   backdrop-filter: blur(10px);
   background-color: #222831d1;
   display: flex;
@@ -182,6 +182,7 @@ html {
 }
 
 .carousel__container {
+  margin-top: 10px;
   background: #22283174;
   border-radius: 20px;
   padding: 15px;
@@ -210,6 +211,7 @@ html {
   border-radius: 20px;
   width: 70%;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .carousel__info ul {
@@ -255,7 +257,7 @@ html {
   background-color: white;
   border-radius: 30px;
   height: 40vh;
-  min-height: 380px;
+  min-height: 480px;
   max-height: 500px;
   min-width: none;
   width: 35vw;
@@ -331,14 +333,20 @@ html {
   z-index: 1000;
 }
 
-.navbar__link {
-  margin: 0 20px;
+.nav-icon {
   cursor: pointer;
 }
 
-.navbar__link:hover {
-  color: #222831;
-  transition: 0.3s;
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-div-mobile {
+  background-color: #f8f9fa;
+  width: 100vh !important;
+  padding: 13px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /* Responsive */
@@ -354,18 +362,21 @@ html {
   }
 
   .about {
-    height: auto;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
-  .about__linkedin img {
+  .about__linkedin {
     display: none;
   }
   .about__description {
-    margin: 0;
+    margin: 50%;
+    width: 80%;
+    min-height: 50vh;
   }
 
   .carousel {
@@ -380,6 +391,7 @@ html {
   .carousel__info {
     padding: 20px;
     width: 80%;
+    width: 90%;
   }
 
   .carousel__info ul {
