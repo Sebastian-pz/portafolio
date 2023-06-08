@@ -1,0 +1,31 @@
+Enfocarse en ver que trasmite cada sección
+
+	Que la atención del usuario se vaya para la parte correcta
+
+Cambiar navbar
+	Eliminar color de fondo
+	Dar más prioridad a los enlaces
+	Justificar en inicio y final de la nav
+
+Introducción
+	Añadir link a correo
+	Añadir link a CV
+	Añadir link a GitHub
+	Incrementar tamaño de Desarrollador Fullstack
+	Jugar con los colores
+	Añadir una leyenda después de Desarrollador Fullstack
+
+Colores de la página
+	Quizá unificar el color
+	Modificar el acerca de mí
+
+Proyectos
+	Replantearse el sistema de proyectos
+	Definitivamente cambiar el sistema de proyectos
+
+Experiencia
+	Añadir experiencia de manera cronologica
+	Seguir la guia de Harvard
+
+Contacto
+	Quizá pensar en dar prioridad al correo en la sección de contacto
